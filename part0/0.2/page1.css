@@ -1,0 +1,84 @@
+body{
+    background-color: rgba(24, 27, 27, 0);
+    background-image: url(dhoni.png);
+    background-size: cover;
+    background-repeat:no-repeat;
+    width:100%;
+    height: 500px;
+}
+header{
+    text-align: center;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.726);
+}
+h2{
+    text-align: center;
+    color: blanchedalmond ;
+}
+.p{
+    background-color:rgba(0, 0, 0, 0.418);
+    overflow: hidden;
+    font-size: 36px;
+    text-align:center;
+    color: blanchedalmond ;
+}
+.navigation
+
+{ 
+    background-color:orangered;
+    overflow: hidden;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.navigation a {
+    float: left;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navigation a:hover
+{
+   
+    color: rgb(142, 255, 255);
+    background-color: black;
+}
+
+
+
+.types{
+    text-transform: uppercase;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-family: sans-serif;
+    text-align: center;
+
+}
+.types p:hover{
+    background-color: black;
+}
+.types a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.types a:hover{
+  color: rgb(122, 247, 236);
+ 
+  
+}
+
+.types img{
+    width: 60%;
+    padding-left: 20%;
+    padding-right: 20%;
+    height: 120px;
+    padding-top:15% ;
+}
+
+.types img.p:hover{
+    background-color: black;
+}
